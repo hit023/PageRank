@@ -1,0 +1,18 @@
+(In the following the '$' in the beginning stands for the prompt at the commandline.)
+Ensure that the following packages are installed in the current system:
+0. python3
+1. numpy
+2. pickle
+3. igraph
+4. urllib
+
+1. To run the basic PageRank algorithm over the corpus:
+$ python3 power_iteration.py
+
+The results are saved in the file 'ranks1.txt'.
+
+2. To run the topic-specific PageRank algorithm:
+$ python3 topic_specific_main.py
+
+Several prompts appear; enter the desired inputs to proceed.
+The results are saved in the file 'ranks2.txt'.
